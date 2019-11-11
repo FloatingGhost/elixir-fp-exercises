@@ -21,10 +21,10 @@ since the rather unweildy `f(g(h(i(a, c)), b))` can be rewritten
 
 ```elixir
 a
-|> f()
-|> g(b)
-|> h()
 |> i(c)
+|> h()
+|> g(b)
+|> f()
 ```
 
 The benefit becomes more immediately obvious if i were to post this snippet
